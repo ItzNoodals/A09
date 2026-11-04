@@ -91,6 +91,11 @@ section {
 		float: right;
 		margin: 0 1em .25em;
 	}
+	& .link {
+		float: right;
+		clear: right;
+		margin-right: 15%; 
+	}
 }
 
 /* the styles for the aside */
@@ -184,3 +189,7 @@ footer {
 
 .menu > li:first-child a { margin-left: 0; }
 .menu > li:last-child a { margin-right: 0; }
+
+.custom-bullets {
+	list-style-type: square;
+}
